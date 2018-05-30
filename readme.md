@@ -29,5 +29,5 @@ python train.py <-c conf/**.yml>
 -be sure all style models have been download
 -To generate a sample from the model "*.ckpt-done" and image "test.jpg", run:
 ```
-python generate.py <--model_file *.ckpt-done> <--image_file test.jpg>
+python generate.py <--model_file *.ckpt-done> <--input_image test.jpg> <--output_image res.jpg>
 ```
