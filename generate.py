@@ -16,10 +16,6 @@ tf.app.flags.DEFINE_string("output_image", "res.jpg", "output image from generat
 FLAGS = tf.app.flags.FLAGS
 
 def generate():
-    print(FLAGS.image_path)
-    print(FLAGS.input_image)
-    print(FLAGS.output_image)
-    print(FLAGS.model_file)
     height, width = 0, 0
     with open((FLAGS.image_path + FLAGS.input_image), 'rb') as img:
         with tf.Session().as_default() as sess:
