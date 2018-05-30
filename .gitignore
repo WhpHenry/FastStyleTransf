@@ -1,6 +1,8 @@
 /__pycache__
 
 imgs4train/
+gen_image/
+!gen_image/test*
 
 *ckpt
 *ckpt-done
